@@ -1,16 +1,18 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Sans, Cormorant_Garamond } from "next/font/google";
+import { Poppins } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
-const sans = DM_Sans({
+const sans = Poppins({
   subsets: ["latin"],
-  variable: "--font-sans",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
   display: "swap",
 });
-const serif = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
-  variable: "--font-serif",
+const display = localFont({
+  src: "./fonts/Utendo-Bold.ttf",
+  weight: "700",
+  style: "normal",
+  variable: "--font-utendo",
   display: "swap",
 });
 export const metadata: Metadata = {
@@ -26,12 +28,12 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
 };
-export const viewport: Viewport = { themeColor: "#173f35" };
+export const viewport: Viewport = { themeColor: "#03465E" };
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${sans.variable} ${serif.variable}`}>
+    <html lang="en" className={`${sans.variable} ${display.variable}`}>
       <body>{children}</body>
     </html>
   );

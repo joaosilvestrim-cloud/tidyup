@@ -91,7 +91,7 @@ export function Assistant() {
             </span>
           </span>
           <span className="launcher-avatar">
-            <Image src="/tidy-mascot.png" alt="" width={95} height={95} />
+            <Image src="/tidy-mascot-blue.png" alt="" width={95} height={95} />
             <span className="assistant-status" />
           </span>
         </button>

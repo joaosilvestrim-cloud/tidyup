@@ -38,7 +38,7 @@ export default function Home() {
               <br />A little more <em>life.</em>
             </h1>
             <p className="hero-description">
-              Less on your to-do list.
+              Less on your to-do list.{" "}
               <br />
               More of what you love.
             </p>
@@ -365,7 +365,7 @@ export default function Home() {
               our cleans, help you explore an estimate, or point you in the
               right direction.
             </p>
-            <AssistantLink className="btn btn-lime">
+            <AssistantLink className="btn btn-accent">
               Say hello to Tidy <Sparkles size={17} />
             </AssistantLink>
             <span className="assistant-intro-note">
@@ -464,7 +464,7 @@ export default function Home() {
                 <br />A little care for your home. A little more room for your
                 life.
               </p>
-              <a href="#estimate" className="btn btn-lime">
+              <a href="#estimate" className="btn btn-accent">
                 Find your fresh start <ArrowUpRight size={18} />
               </a>
             </div>

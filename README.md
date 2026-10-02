@@ -32,13 +32,13 @@ npm start
 
 ## Experience
 
-- Responsive editorial layout with a custom forest-green and sage palette.
-- DM Sans and Cormorant Garamond, self-hosted through `next/font`.
+- Responsive editorial layout with the original TidyUp! deep blue (#03465E), cyan (#02CDFF), white, and light gray palette.
+- Poppins and the original Utendo Bold, self-hosted through `next/font`.
 - Optimized images using `next/image`.
 - Standard, Deep, and Moving Cleaning service cards and a detailed comparison.
 - Three-step estimate flow with room selectors, service selection, contact validation, and an editable result.
 - Accessible mobile navigation and assistant dialogs with keyboard controls.
-- **Tidy**, an original translucent sage droplet mascot, with floating motion, cursor-driven perspective, a thinking state, and a happy response animation.
+- **Tidy**, an original translucent cyan-blue droplet mascot, with floating motion, cursor-driven perspective, a thinking state, and a happy response animation.
 - Gentle scroll reveals, image interactions, orbiting accents, and micro-interactions.
 - Reduced-motion support; animations and perspective effects switch off when requested by the visitor’s system preference.
 - Service information, FAQs, local contact details, and a testimonial layout preview.

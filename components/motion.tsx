@@ -63,8 +63,8 @@ export function Mascot({
       <div className="mascot-tilt">
         <div className="mascot-float">
           <Image
-            src="/tidy-mascot.png"
-            alt="Tidy, a friendly sage-green water droplet mascot waving hello"
+            src="/tidy-mascot-blue.png"
+            alt="Tidy, a friendly cyan-blue water droplet mascot waving hello"
             width={460}
             height={460}
             loading="eager"
