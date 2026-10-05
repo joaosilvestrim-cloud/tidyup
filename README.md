@@ -38,7 +38,7 @@ npm start
 - Standard, Deep, and Moving Cleaning service cards and a detailed comparison.
 - Three-step estimate flow with room selectors, service selection, contact validation, and an editable result.
 - Accessible mobile navigation and assistant dialogs with keyboard controls.
-- **Tidy**, an original translucent cyan-blue droplet mascot, with floating motion, cursor-driven perspective, a thinking state, and a happy response animation.
+- **Tidy**, a cyan and navy broom mascot inspired by the original TidyUp! logo, with floating motion, cursor-driven perspective, a thinking state, and a happy response animation.
 - Gentle scroll reveals, image interactions, orbiting accents, and micro-interactions.
 - Reduced-motion support; animations and perspective effects switch off when requested by the visitor’s system preference.
 - Service information, FAQs, local contact details, and a testimonial layout preview.
@@ -84,7 +84,7 @@ components/quote-calculator.tsx  Estimate wizard and service selection
 components/assistant.tsx     Tidy chat, replies, and conversation state
 components/motion.tsx        Scroll reveals and mascot perspective/motion
 lib/content.ts               Services, comparison, FAQs, sample pricing
-public/tidy-mascot.png       Original mascot with transparency
+public/tidy-mascot-broom.png Current broom mascot with transparency
 public/favicon.svg           Brand-specific icon
 ```
 

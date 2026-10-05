@@ -1265,12 +1265,14 @@ input::placeholder {
   transform-style: preserve-3d;
 }
 .mascot-float {
+  aspect-ratio: 1;
   animation: tidy-float 5s ease-in-out infinite;
   filter: drop-shadow(0 12px 10px #0127351a);
 }
 .mascot img {
-  height: auto;
+  height: 100%;
   width: 100%;
+  object-fit: contain;
   user-select: none;
   pointer-events: none;
 }

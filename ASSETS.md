@@ -2,9 +2,12 @@
 
 ## Tidy mascot
 
-- Current file: `public/tidy-mascot-blue.png`; original retained at `public/tidy-mascot.png`.
+- Current file: `public/tidy-mascot-broom.png` (1148 × 1371, transparent PNG).
+- Broom character generated with the built-in OpenAI image tool, using the original TidyUp! logo's upright broom as the shape reference and the blue droplet mascot as the rendering reference. The navy bristles, cyan band and handle, friendly face, waving glove, and shoes form the current character.
+- Brand reference: https://tidyupmidland.com/wp-content/uploads/2025/01/Group-1.webp
+- Previous droplet concepts retained at `public/tidy-mascot-blue.png` and `public/tidy-mascot.png`.
 - Created specifically for this prototype using the built-in OpenAI image-generation tool.
-- Original PNG, 1280 × 1280 pixels, with transparency.
+- Previous droplet PNGs are 1280 × 1280 pixels, with transparency.
 - Animated in the interface without altering the original image. There is no external API dependency at runtime.
 
 ### Generation prompt
